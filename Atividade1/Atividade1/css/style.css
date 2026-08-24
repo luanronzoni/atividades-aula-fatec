@@ -1,0 +1,31 @@
+body{
+    background-color: #f0f0f0;
+    border: 2px solid red;
+    margin: auto;
+    max-width: 90%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+#info{
+    font-size: 16px;
+    color: green;;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.ancor{
+    font-size: 22px;
+    color: orange;
+}
