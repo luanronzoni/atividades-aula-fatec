@@ -1,8 +1,6 @@
 body{
     background-color: #f0f0f0;
     border: 2px solid red;
-    margin: auto;
-    max-width: 90%;
 }
 
 header{
@@ -20,7 +18,7 @@ footer{
 
 #info{
     font-size: 16px;
-    color: green;;
+    color: orangered;
     font-family: 'Times New Roman', Times, serif;
     
 }
@@ -28,4 +26,26 @@ footer{
 .ancor{
     font-size: 22px;
     color: orange;
+}
+
+.container_background{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 77%;
+    margin: 1%;
+
+}
+
+.background_img{
+    z-index: 0;
+    width: 50%;
+    height: 100%;
+    border: purple 5px solid;
+}
+
+.background_text{
+    position: absolute;
+    z-index: 1;
+    margin: 1%;
 }
