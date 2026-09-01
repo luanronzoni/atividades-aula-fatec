@@ -1,51 +1,105 @@
-body{
-    background-color: #f0f0f0;
-    border: 2px solid red;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}body {
+  font-family: cursive;
+  background-color: #ccc;
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px;
-    
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  border-bottom: 1px solid #ccc;
+}
+
+figure{
+  padding: 2% 2%;
+}
+
+.ancor {
+  font-size: 17px;
+  text-decoration: none;
+  color: orange;
+  margin: 10px;
+}
+
+.hero{
+  position: relative;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.hero_img {
+  width: 50%;
+  aspect-ratio: 16/9;
+  object-fit: cover;      
+  display: block;
+  margin: 0 auto;
+}
+.hero_p {
+  position: absolute;
+  top: 8%;                      
+  left: 50%;
+  transform: translateX(-50%);  
+  color: #ffcc00;  
+  padding: 5%;
+}
+
+.hero_h1 {
+  text-align: center;
+  font-size: 26px;
+  font-family: cursive;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2%;
+  margin: 7%;
+}
+
+.card {
+  background-color: #f1811f;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(217, 6, 6, 0.71);
+  padding: 8%;
+}
+
+.card_icon {
+  width: 100%;
+ height: 15%;
+  background-color: #ccc;
+  border-radius: 8px;
+  margin-bottom: 8px;
 }
 
 footer{
-    display: flex;
-    justify-content: center;
+  text-align: center;
+  background-color: #faebebfe;
+  color: hsl(30, 4%, 11%);
+  font-size: 8px;
+  padding: 1%;
 }
 
-#info{
-    font-size: 16px;
-    color: orangered;
-    font-family: 'Times New Roman', Times, serif;
-    
+section{
+  margin: 7%;
 }
 
-.ancor{
-    font-size: 22px;
-    color: orange;
+form {
+  display: flex;
+  flex-direction: column; 
+  gap: 2%;                 
 }
 
-.container_background{
-    position: relative;
-    display: flex;
-    width: 100%;
-    height: 77%;
-    margin: 1%;
-
+textarea {
+  height: 150px;
 }
 
-.background_img{
-    z-index: 0;
-    width: 50%;
-    height: 100%;
-    border: purple 5px solid;
-}
-
-.background_text{
-    position: absolute;
-    z-index: 1;
-    margin: 1%;
+button{
+  margin: 2% 0 0 0 ;
+  width: 10%;
 }
