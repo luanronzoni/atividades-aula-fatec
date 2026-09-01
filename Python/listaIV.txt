@@ -1,12 +1,25 @@
+1)
 
 
 
 
-
-
-
-
-
+2)
+ 
+import random
+ 
+ 
+rnum = random.sample(range(1, 100), 20)
+ 
+par = []
+impar = []
+ 
+for i in rnum:
+    if i % 2 == 0:
+        par.append(i)
+    else:
+        impar.append(i)
+ 
+print(f'pares: {par} \n impares: {impar} \n original: {rnum}')
 
 3)
 
